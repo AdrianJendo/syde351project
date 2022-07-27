@@ -3,8 +3,8 @@
 N = Simulink.Parameter(2.5); %gear ratio
 Kb = Simulink.Parameter(0.5730); %vbemf ratio
 Kt = Simulink.Parameter(0.42); %torque const
-La = Simulink.Parameter(0.8); %induct
-Ra = Simulink.Parameter(5.4);%
+La = Simulink.Parameter(0.0054); %induct
+Ra = Simulink.Parameter(1.45);%
 R = Simulink.Parameter(0.05);
 %TOTl mASS
 M = Simulink.Parameter(47.428); 
