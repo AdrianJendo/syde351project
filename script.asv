@@ -1,20 +1,19 @@
 % Navigation and DC motor subsystems
 %C42-L90
-N = Simulink.Parameter(2.5); %gear ratio
+N = Simulink.Parameter(5); %gear ratio
 Kb = Simulink.Parameter(0.5730); %vbemf ratio
 Kt = Simulink.Parameter(0.42); %torque const
-La = Simulink.Parameter(0.0054); %induct
-Ra = Simulink.Parameter(1.45);%
+La = Simulink.Parameter(1.45); %induct
+Ra = Simulink.Parameter(5.4);%
 R = Simulink.Parameter(0.05);
 %TOTl mASS
 M = Simulink.Parameter(47.428); 
 L = Simulink.Parameter(0.5);%aSSUME WHEEL STICKS OUT
 d = Simulink.Parameter(0);
-J = Simulink.Parameter(2.720117);
+J = Simulink.Parameter(1.482125);
 theta = Simulink.Parameter(0);
-%9.81   ×   ( 47.428   ÷   2 )   ×   0.45   ×   0.05 *2
-td= Simulink.Parameter(2.72011);
 
+td= Simulink.Parameter(10.469);
 
 % Tdl = Simulink.Parameter(1);
 % Tdr = Simulink.Parameter(1);
