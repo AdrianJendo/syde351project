@@ -20,7 +20,7 @@ theta = Simulink.Parameter(0);
 
 % Suspension system
 v = Simulink.Parameter(3);
-m = Simulink.Parameter(40); % given
+m = Simulink.Parameter(54.856); % given
 len = Simulink.Parameter(5e-2); % given
 H = Simulink.Parameter(3e-2); % given
 
